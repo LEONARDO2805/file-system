@@ -12,10 +12,12 @@ def main():
 def printMenu(current):
     print(current)
     print("[1] Change Directory")
-    print("[2] Move Back")
-    print("[3] List files")
+    print("[2] Add Folder")
+    print("[3] Add files")
+    print("[4] List Items in Directory")
     print()
     print("[0] Exit")
+
 
 if __name__ == "__main__":
     main()
