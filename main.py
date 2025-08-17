@@ -19,5 +19,17 @@ def printMenu(current):
     print("[0] Exit")
 
 
+class Node:
+    def __init__(self,data):
+        self.data = data #name of folder/file
+        self.children = []
+
+    def add_child(self, data):
+        child = Node(data)
+        self.children.append(child)
+        return child
+
+
+
 if __name__ == "__main__":
     main()
